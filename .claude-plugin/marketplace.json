@@ -40,8 +40,7 @@
         "./skills/web-artifacts-builder",
         "./skills/webapp-testing"
       ]
-    }
-    ,
+    },
     {
       "name": "claude-api",
       "description": "Claude API and SDK documentation skill for building LLM-powered applications",
@@ -67,6 +66,30 @@
       "strict": false,
       "skills": [
         "./skills/discernment-nudge"
+      ]
+    },
+    {
+      "name": "frappe-erpnext",
+      "description": "Frappe/ERPNext v16 skills for the Yoshita ERP: custom app, bench, print formats, scripts, DocTypes, testing, workflows",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/frappe-impl-customapp",
+        "./skills/frappe-ops-bench",
+        "./skills/frappe-print",
+        "./skills/frappe-scripts",
+        "./skills/frappe-syntax-doctypes",
+        "./skills/frappe-testing",
+        "./skills/frappe-workflow"
+      ]
+    },
+    {
+      "name": "phan-tich-gmail",
+      "description": "Phân tích Gmail công việc Yoshita: thống kê thư theo khách, thời gian phản hồi, thư cần theo dõi",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/phan-tich-gmail"
       ]
     }
   ]
